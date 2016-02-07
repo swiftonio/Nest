@@ -7,6 +7,7 @@ public protocol RequestType {
   var path:String { get }
   var headers:[Header] { get }
   var body:String? { get }
+  var params:[String:String] { get }
 }
 
 
